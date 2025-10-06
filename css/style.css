@@ -10,6 +10,14 @@
     margin-top: -15px;
 }
 
+/* Carousel Indicators (membuat carousel indicator menjadi bulat) */
+.carousel-indicators button {
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    border: 0;
+}
+
 /*section 3*/
 #section-3 {
     background-image: url("../assets/image/background1-01.png");
@@ -80,4 +88,5 @@
     #walking-jolly {
         height: 10vh;
     }
+
 }
