@@ -1,0 +1,83 @@
+/*navbar*/
+#navbar-custom {
+    background-image: url("../assets/image/header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gambar, #section-3, #tokenomics, #section-5 {
+    margin-top: -15px;
+}
+
+/*section 3*/
+#section-3 {
+    background-image: url("../assets/image/background1-01.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section 5  */
+
+#section-5 {
+    background-image: url("../assets/image/Background201.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Section 6 walking jolly */
+#walking-jolly {
+    background-image: url("../assets/image/Background201.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+#walking-jolly .relatif {
+    position: relative;
+}
+
+#walking-jolly .absolut {
+    position: absolute;
+    transform: rotate(10deg);
+}
+
+#walking-jolly .absolut2 {
+    transform: rotate(-10deg);
+}
+
+/*Section 7*/
+#section-7 {
+    background-image: url("../assets/image/Background201.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*footer*/
+#footer {
+    margin-top: -20px;
+}
+
+/*media*/
+@media(max-width: 576px) {
+
+    div img.adjust-logo {
+        width: 150px;
+    }
+
+    a img.adjust {
+        width: 30px;
+    }
+
+    #carousel {
+        margin-top: -12px;
+    }
+
+    #walking-jolly {
+        height: 10vh;
+    }
+}
