@@ -12,8 +12,8 @@
 
 /* Carousel Indicators (membuat carousel indicator menjadi bulat) */
 .carousel-indicators button {
-    width: 15px !important;
-    height: 15px !important;
+    width: 10px !important;
+    height: 10px !important;
     border-radius: 50%;
     border: 0;
 }
@@ -90,3 +90,4 @@
     }
 
 }
+
